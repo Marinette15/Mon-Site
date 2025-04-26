@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0d1b2a;
+}
+
+h1 i {
+    margin-right: 10px;
+    font-size: 50px;
+    color: #1e90ff;
+}
+
+h1 {
+    font-size: 30px;
+    color: #f7fbff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #1e90ff;
+}
+
+.hero-section {
+    background-image: url('/images/FORT.jpg');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(238, 240, 241);
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(253, 248, 244);
+}
+
+.hero-section .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #1E90FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* Section Services */
+.services {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.services h2 {
+    font-size: 32px;
+    color: #0d1b2a;
+    margin-bottom: 40px;
+}
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.service-card {
+    background-color: #eaeef2;
+    padding: 30px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.service-card i {
+    font-size: 40px;
+    color: #1e90ff;
+    margin-bottom: 15px;
+}
+.service-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Section Pourquoi nous choisir */
+.why-us {
+    background-color: #1e293b;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.why-us h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.why-us ul {
+    list-style: none;
+    padding: 0;
+}
+.why-us li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+.why-us i {
+    color: #1e90ff;
+    margin-right: 10px;
+}
+
+/* Section Avis clients */
+.testimonials {
+    background-color: #f2f6fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+.testimonials h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #0d1b2a;
+}
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.testimonial-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-style: italic;
+}
+.testimonial-card h4 {
+    margin-top: 15px;
+    font-weight: normal;
+    color: #333;
+}
+
+/* Section Appel à l'action */
+.cta {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.cta h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.cta .btn {
+    background-color: white;
+    color: #1e90ff;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.cta .btn:hover {
+    background-color: #eaeaea;
+}
+
+/* Footer */
+footer {
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 4px solid #1e90ff;
+}
+
+footer .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+footer .socials li a {
+    color: #cfd2d5;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    border: 2px solid #355f88;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+footer .socials li a:hover {
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
